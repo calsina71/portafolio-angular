@@ -1,0 +1,21 @@
+{
+  "equipo" : [ {
+    "frase" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+    "nombre" : "Carlos Alsina",
+    "subtitulo" : "Web developer",
+    "twitter" : "@calsina71",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/angular-html-3efda.appspot.com/o/team-1.jpg?alt=media&token=daf0b4d9-6cd1-46ff-ba87-6e8455c283d1"
+  }, {
+    "frase" : "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.",
+    "nombre" : "Melissa Flores",
+    "subtitulo" : "community manager",
+    "twitter" : "@mel_flor",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/angular-html-3efda.appspot.com/o/team-2.jpg?alt=media&token=5c0b2556-4816-4cd2-baa9-8dacd6f6a1ff"
+  }, {
+    "frase" : "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "nombre" : "Toni Rius",
+    "subtitulo" : "web master",
+    "twitter" : "@toni_rius",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/angular-html-3efda.appspot.com/o/team-3.jpg?alt=media&token=9d81771f-36e2-4491-a2cf-8fd6db7b1ee4"
+  } ]
+}

@@ -1,4 +1,11 @@
+/* SVG animación */
+svg path,
+svg rect{
+  fill: black;
+}
 
+
+/* Animaciones */
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;

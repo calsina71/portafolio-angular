@@ -40,7 +40,7 @@ export class InfoPaginaService {
           this.cargada = true;
           this.equipo = resp;
 
-          console.log( resp );
+          //console.log( resp );
     });
   }
 

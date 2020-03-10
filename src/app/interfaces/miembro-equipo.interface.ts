@@ -5,7 +5,7 @@ export interface MiembroEquipo {
   nombre?: string;
   subtitulo?: string;
   frase?: string;
-  twiter?: string;
+  twitter?: string;
   url?: string;
 
 }
