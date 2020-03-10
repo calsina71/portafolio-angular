@@ -7,7 +7,7 @@ import { InfoPaginaService } from '../../services/info-pagina.service';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  styles: [ ]
 })
 export class HeaderComponent implements OnInit {
 
@@ -20,11 +20,11 @@ export class HeaderComponent implements OnInit {
 
   buscarProducto( termino: string ) {
 
-    if ( termino < 1 ) {
+    if ( termino.length < 1 ) {
       return;
     }
 
     this.router.navigate(['/search', termino]);
-    console.log( termino );
+    // console.log( termino );
   }
 }

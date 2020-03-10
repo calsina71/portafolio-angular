@@ -6,7 +6,7 @@ import { Producto } from '../../interfaces/producto-interface';
 @Component({
   selector: 'app-item',
   templateUrl: './item.component.html',
-  styleUrls: ['./item.component.css']
+  styles: [ ]
 })
 export class ItemComponent implements OnInit {
 
@@ -25,7 +25,7 @@ export class ItemComponent implements OnInit {
               .subscribe( (producto: Producto) => {
                 this.producto = producto;
                 this.id = parametros['id'];
-                console.log(producto);
+                // console.log(producto);
               });
         })
 

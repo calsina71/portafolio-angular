@@ -65,7 +65,7 @@ export class ProductosService {
 
   private filtrarProductos( termino: string ) {
 
-    console.log( this.productos_idx );
+    // console.log( this.productos_idx );
     this.productosFiltrados = [];
 
     termino = termino.toLowerCase();
@@ -74,7 +74,7 @@ export class ProductosService {
 
       let tituloLowerCase = prod.titulo.toLowerCase();
       let categoriaLowerCase = prod.categoria.toLowerCase();
-      
+
       if ( categoriaLowerCase.indexOf( termino ) >= 0 || tituloLowerCase.indexOf( termino ) >= 0) {
           this.productosFiltrados.push( prod );
       }
